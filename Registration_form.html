@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#" method="POST">
+      <fieldset>  
+      First Name:  <input type="text" placeholder="Enter your first Name">
+      <br/><br/>
+
+      Last Name:  <input type="text" placeholder="Enter your last Name">
+      <br/><br/>
+      
+      Email:  <input type="text" placeholder="Enter your Email">
+      <br/><br/>
+      
+      Password:  <input type="password">
+      <br/><br/>
+      <br/>
+      
+      Gender <input type="radio" name="gender">Male
+      <input type="radio" name="gender">Female
+      <input type="radio" name="gender">Other
+      
+      <br/><br/>
+      
+      Enter your Phone No - <select>
+        <option value="017">017</option>
+        <option value="019">019</option>
+        <option value="018">018</option>
+        <option value="016">016</option>
+        <option value="015">015</option>
+    </select>
+    <input type="text" placeholder="Enter your phone number"> 
+    <br/><br/>
+      Who is you guardian:
+      <input list="name">
+      <datalist id="name">
+          <option value="Father"></option>
+          <option value="Mother"></option>
+          <option value="Brother"></option>
+          <option value="Sister"></option>
+
+
+      </datalist>
+      <br/><br/>
+      Tell Me About yourself<br/>
+      <textarea cols="60" rows="10" placeholder="Tell me about yourself"></textarea><br/>
+
+      <br/>
+      <input type="submit" value="Submit">
+
+    </fieldset>
+    </form>
+
+
+</body>
+</html>
